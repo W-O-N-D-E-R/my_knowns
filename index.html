@@ -57,9 +57,14 @@
       }
     };
 	(function(){
-	  if (location.href === '#/') {
-	    document.querySelector('#catLoading').style.display = 'flex'
-	  }
+	  var timer = null
+	  timer = setInterval(function(){
+	    if (location.href === '#/' && document.querySelector('#catLoading')) {
+	      document.querySelector('#catLoading').style.display = 'flex'
+		  clearInterval(timer)
+		  timer = null
+	    }
+	  },200)
 	})()
   </script>
   <!-- Docsify v4 -->
