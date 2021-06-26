@@ -28,13 +28,6 @@
         text-decoration: underline;
     }
 </style>
-<script>
-    (function(){
-	  document.querySelector('#catLoading').style.display = 'flex'
-	})()
-</script>
-
-
 <!-- 封面 -->
 
 ![logo](./static/images/head.jpg ':size=100')
