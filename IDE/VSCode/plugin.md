@@ -1,2 +1,21 @@
-# Vs Code 优质插件
+# VS Code 优质插件
 
+- Bracket Pair Colorizer : 括号配对着色
+- Indent Rainbow : 彩虹缩进
+- Todo Highlighter : TODO高亮
+- Import Cost : 查看导入模块的大小
+- Auto Close Tag : 自动闭合标签
+- Auto Rename Tag : 自动重命名标签
+- GitLens : Git 扩展 - 追踪代码提交作者
+- Beautify : HTML/CSS/JS 代码格式化
+- Indenticator : 缩进显示器
+- VSCode Icons : 文件图标
+- Prettier for VSCode : 代码格式化工具
+- Version Lens : 显示核心软件包版本号
+- IntelliSense for CSS class names in HTML : HTML 中智能补全CSS class名
+- highlight-matching-tag : 高亮匹配的标签
+- Color Highlight : 显示代码中定义的颜色
+- Trailing Spaces : 高亮冗余的空格方便删除
+- TypeScript Hero : TypeScript 辅助工具
+- Vetur : Vue 辅助工具
+- ClaudiaIDE : 背景图插件
