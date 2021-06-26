@@ -28,6 +28,14 @@
         text-decoration: underline;
     }
 </style>
+<script>
+    (function(){
+	  if (location.href === '#/') {
+	    document.querySelector('#catLoading').style.display = 'flex'
+	  }
+	})()
+</script>
+
 
 <!-- 封面 -->
 

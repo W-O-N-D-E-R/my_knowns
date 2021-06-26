@@ -26,7 +26,7 @@
   </style>
 </head>
 <body>
-  <div id="catLoading" class="catLoading">
+  <div id="catLoading" class="catLoading" style="display:none;">
     <img src="./static/images/catLoading.gif" alt="catLoading"/>
   </div>
   <div id="app">
@@ -56,7 +56,7 @@
     };
 	(function(){
 	  if (location.href !== '#/') {
-	    document.querySelector('#catLoading').style.display = 'none'
+	    // document.querySelector('#catLoading').style.display = 'none'
 	  }
 	})()
   </script>
