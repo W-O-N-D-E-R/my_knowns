@@ -26,9 +26,9 @@
   </style>
 </head>
 <body>
-	<div id="catLoading" class="catLoading">
-      <img src="./static/images/catLoading.gif" alt="catLoading"/>
-    </div>
+  <div id="catLoading" class="catLoading">
+    <img src="./static/images/catLoading.gif" alt="catLoading"/>
+  </div>
   <div id="app">
     <div class="catLoading">
       <img src="./static/images/catLoading.gif" alt="catLoading"/>
@@ -52,7 +52,12 @@
         depth: 2, // 搜索标题的最大层级, 1 - 6
         hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
       }
-    }
+    };
+	(function(){
+	  if (location.href !== '#/') {
+	    document.querySelector('#catLoading').style.display = 'none'
+	  }
+	})()
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
