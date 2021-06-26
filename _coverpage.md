@@ -30,7 +30,7 @@
 
 ![logo](./static/images/head.jpg ':size=100')
 
-<video id="video" autoplay loop muted>
+<video id="video" autoplay loop muted onloadedmetadata="document.querySelector('#catLoading').style.display = 'none'">
     <source id="mp4" src="./static/video/forest.mp4" type="video/mp4">
 </video>
 
