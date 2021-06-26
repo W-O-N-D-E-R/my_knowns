@@ -21,7 +21,7 @@
         color: #fff;
         cursor: default;
     }
-    .cover-main p a:hover{
+    .cover-main p a, .cover-main p a:hover{
         text-decoration: underline;
     }
 </style>
