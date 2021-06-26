@@ -1,3 +1,5 @@
+<!-- 封面 -->
+
 <style>
     section.cover{
         background: unset!important;
@@ -48,4 +50,4 @@
 
 [GitHub](https://github.com/W-O-N-D-E-R)
 
-[随便看看](/Index)
+[随便看看](/README)

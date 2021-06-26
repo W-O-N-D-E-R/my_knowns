@@ -1,5 +1,5 @@
 <!-- IDE 目录 -->
 
-* [摘要](IDE/Index)
-* [VS Code](IDE/VSCode/Index)
+* [摘要](IDE/README)
+* [VS Code](IDE/VSCode/README)
 

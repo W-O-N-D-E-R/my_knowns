@@ -1,5 +1,5 @@
 <!-- 总目录 -->
 
-* [总览](/Index)
-* [IDE](IDE/Index)
+* [总览](/README)
+* [IDE](/IDE/README)
 
