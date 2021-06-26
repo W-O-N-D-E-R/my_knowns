@@ -30,9 +30,12 @@
 </style>
 <script>
     (function(){
-	  if (location.href === '#/') {
+      /*
+	  if (location.href !== '#/') {
+        console.log(111)
 	    document.querySelector('#catLoading').style.display = 'flex'
 	  }
+	  */
 	})()
 </script>
 
@@ -41,10 +44,9 @@
 
 ![logo](./static/images/head.jpg ':size=100')
 
-<video id="video" autoplay loop muted onplay="document.querySelector('#catLoading').style.display = 'none'">
+<video id="video" autoplay loop muted onloadstart="document.querySelector('#catLoading').style.display = 'flex'" onplay="document.querySelector('#catLoading').style.display = 'none'">
     <source id="mp4" src="./static/video/forest.mp4" type="video/mp4">
 </video>
-
 **wonder**
 
 的个人知识库
