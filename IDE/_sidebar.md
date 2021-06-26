@@ -1,4 +1,5 @@
 <!-- IDE 目录 -->
 
-* [插件](IDE/VSCode/plugin)
+* [摘要](IDE/Index)
+* [VS Code](IDE/VSCode/Index)
 
