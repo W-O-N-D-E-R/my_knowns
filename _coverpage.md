@@ -28,6 +28,21 @@
         text-decoration: underline;
     }
 </style>
+<script>
+    (function(){
+	  var timer = null
+	  timer = setInterval(function(){
+	    if (location.href === '#/' && document.querySelector('#catLoading')) {
+	      document.querySelector('#catLoading').style.display = 'flex'
+		  clearInterval(timer)
+		  timer = null
+	    }
+	  },200)
+	})()
+</script>
+
+
+
 <!-- 封面 -->
 
 ![logo](./static/images/head.jpg ':size=100')

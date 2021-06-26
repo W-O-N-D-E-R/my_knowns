@@ -56,16 +56,6 @@
         hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
       }
     };
-	(function(){
-	  var timer = null
-	  timer = setInterval(function(){
-	    if (location.href === '#/' && document.querySelector('#catLoading')) {
-	      document.querySelector('#catLoading').style.display = 'flex'
-		  clearInterval(timer)
-		  timer = null
-	    }
-	  },200)
-	})()
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
