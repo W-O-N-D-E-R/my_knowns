@@ -50,4 +50,4 @@
 
 [GitHub](https://github.com/W-O-N-D-E-R)
 
-[随便看看](/README)
+[随便看看](./README)

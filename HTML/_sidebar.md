@@ -1,6 +1,6 @@
 <!-- HTML 目录 -->
 
-* [◀BACK](/README)
-* [摘要](HTML/README)
-* [HTML 发展史](HTML/html_history)
+* [◀BACK](../README)
+* [摘要](./README)
+* [HTML 发展史](./html_history)
 
