@@ -44,4 +44,4 @@
 
 W3C开发完html4以后，开发下一代html的时候，把亲儿子抛弃了，扶持干儿子XHTML。苹果公司、Mozilla基金会等不忍心，于是另起炉灶创立了民间组织WHATWG，继续抚养html。后来W3C的干儿子不争气，html则在WHATWG抚养下越发强大，W3C见状便和WHATWG合作（威逼），把培养好的亲儿子html接回来，当做下一代的html标准，因为亲爹（W3C）和干爹(WHATWG)对于html发展道路有不同的看法，这也导致了现存了两套html的标准，这也是导致兼容性问题出现的根本原因。
 
-![html_history](D:\Code\GitHub\my_knowns\HTML\html_history.assets\html_history_01.jpg)
+![html_history](html_history.assets/html_history_01.jpg)
